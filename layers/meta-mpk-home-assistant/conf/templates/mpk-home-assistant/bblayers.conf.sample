@@ -1,0 +1,19 @@
+# Version of layers configuration, specific to
+# each defined distro in the repository.
+# Format: ${DISTRO}-<version>
+TD_BBLAYERS_CONF_VERSION = "mpk-home-assistant-5"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ##OEROOT##/meta \
+  ##OEROOT##/meta-oe \
+  ##OEROOT##/meta-python \
+  ##OEROOT##/meta-networking \
+  ##OEROOT##/meta-filesystems \
+  ##OEROOT##/meta-virtualization \
+  ##OEROOT##/meta-raspberrypi \
+  ##OEROOT##/meta-homeassistant \
+  ##OEROOT##/meta-mpk-home-assistant \
+  "
