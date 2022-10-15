@@ -1,0 +1,20 @@
+[submodule "repos/poky"]
+	path = repos/poky
+	url = git://git.yoctoproject.org/poky
+	branch = kirkstone
+[submodule "repos/meta-openembedded"]
+	path = repos/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = kirkstone
+[submodule "repos/meta-virtualization"]
+	path = repos/meta-virtualization
+	url = git://git.yoctoproject.org/meta-virtualization
+	branch = kirkstone
+[submodule "repos/meta-homeassistant"]
+	path = repos/meta-homeassistant
+	url = https://github.com/meta-homeassistant/meta-homeassistant.git
+	branch = kirkstone
+[submodule "repos/meta-raspberrypi"]
+	path = repos/meta-raspberrypi
+	url = https://github.com/agherzan/meta-raspberrypi.git
+	branch = kirkstone
