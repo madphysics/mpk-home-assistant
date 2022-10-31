@@ -246,3 +246,24 @@ PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
 # track the version of this file when it was generated. This can safely be ignored if
 # this doesn't mean anything to you.
 CONF_VERSION = "2"
+
+##
+## MPK Bits.
+## Set these are needed
+##
+# What to generate?
+#GLIBC_GENERATE_LOCALES = "all"
+# This loads locales into the system
+#IMAGE_MPK_DEFAULT_LOCALE = "en-gb"
+# This set the default keyboard
+#IMAGE_MPK_DEFAULT_KB = "uk"
+# Set the detault timezone
+#DEFAULT_TIMEZONE = "Europe/London"
+# Set the hostname
+#hostname:pn-base-files = "home-assistant"
+# Set SSID
+#IMAGE_MPK_SSID="WiFiID"
+# Set Passpkey
+#IMAGE_MPK_SSID_KEY="WiFiID_KEY"
+# Set WiFi Encryption mode
+#IMAGE_MPK_SSID_MODE="WPA-PSK"
