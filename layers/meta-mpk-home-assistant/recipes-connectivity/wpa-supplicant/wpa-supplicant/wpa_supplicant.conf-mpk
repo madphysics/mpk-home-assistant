@@ -1,0 +1,14 @@
+ctrl_interface=/var/run/wpa_supplicant
+ctrl_interface_group=0
+update_config=1
+
+network={
+        key_mgmt=NONE
+}
+network={
+        ssid="%SSID%"
+        scan_ssid=1
+        psk="%PASSKEY%"
+        proto=RSN
+        key_mgmt=%ENC_MODE%
+}
