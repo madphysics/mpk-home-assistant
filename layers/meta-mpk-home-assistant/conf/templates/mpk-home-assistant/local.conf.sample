@@ -267,3 +267,6 @@ CONF_VERSION = "2"
 #IMAGE_MPK_SSID_KEY="WiFiID_KEY"
 # Set WiFi Encryption mode
 #IMAGE_MPK_SSID_MODE="WPA-PSK"
+# RTC to machine features
+#MACHINE_FEATURES += "rtc"
+
